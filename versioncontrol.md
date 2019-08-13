@@ -1,16 +1,6 @@
----
-title: "Version control guidelines"
-author: "David Brawand"
-date: "2019-08-12"
-output:
-  pdf_document:
-    toc: true
-    highlight: zenburn
----
-
 # Software Version Control
 
-All code developed at King's College Hospital, Precision Medicine, shall be put under version control according to these guidelines, ___in addition___ to trust-wide policies and versioning practices. Compliance with these guidelines does __not__ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies currently in place.
+All code developed at King's College Hospital, Precision Medicine, shall be put under version control according to these guidelines, ___in addition___ to trust-wide policies and versioning practices. Compliance with these guidelines does __not__ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
 
 ## Purpose
 Versioning of software configuration allows tracking code changes and supports the validity of in production software stacks. The use of a version control system (VCS) allows and encourages efficient and safe collaborative development and provides tools for effective code review. Further, the use of a VCS allows monitoring of progress, diligence, and enables a full audit trail of bioinformatics software development.
