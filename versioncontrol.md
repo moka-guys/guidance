@@ -20,6 +20,9 @@ Each code repository should have a designated owner and/or development lead. The
 #### Contributors
 Contributors to specific projects shall be selected or approved by the project owner. External collaborators must abide by the same rules and standards established in the guidance documents in this repository.
 
+#### Deploy keys
+If a repository requires read-only access for deployments, it is mandatory to use the KingsPM deploy key from the [http://git.kingspm.uk/KingsPM/capiac] repository. Access to this repo shall be restricted to senior staff, system administrators, and bioinformatics leads.
+
 #### Public access and licensing
 All repositories should be private initially. Code that is not commercially sensitive or confidential, and which is of general interest should be published in a public repository. All code in public repositories must contain a `LICENSE` file. We encourage the use of permissive licenses such as the Apache or Mozilla licenses. Further guidance is provided [here](https://choosealicense.com/licenses/). Please review your choice with colleagues before you choose a licence for your open-source project.
 

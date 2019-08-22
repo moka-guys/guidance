@@ -43,4 +43,6 @@ User specific private keys should not leave the workstation on which they were g
 ssh-keygen -t rsa -b 4096
 ```
 
+#### Deploy keys
+A read only deploy key for repositories on [git.kingspm.uk] is provided in the [https://git.kingspm.uk/KingsPM/capiac] repository. Access to this repository shall be restricted to system administrators, senior bioinformaticians and bioinformatics leads.
 
