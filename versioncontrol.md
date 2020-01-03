@@ -1,6 +1,6 @@
 # Software Version Control
 
-All code developed at King's College Hospital, Precision Medicine, shall be put under version control according to these guidelines, ___in addition___ to trust-wide policies and versioning practices. Compliance with these guidelines does __not__ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
+All code developed at the LSGLH, shall be put under version control according to these guidelines, ___in addition___ to trust-wide policies and versioning practices. Compliance with these guidelines does __not__ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
 
 ## Purpose
 Versioning of software configuration allows tracking code changes and supports the validity of in production software stacks. The use of a version control system (VCS) allows and encourages efficient and safe collaborative development and provides tools for effective code review. Further, the use of a VCS allows monitoring of progress, diligence, and enables a full audit trail of bioinformatics software development.
@@ -12,7 +12,7 @@ Versioning of software configuration allows tracking code changes and supports t
 We mandate the use of the ___git___ distributed version control system (DVCS). This allows the collaborative, concurrent and independent development of new software or configurations (code).
 
 ### Repositories
-All code developed in the bioinformatics group shall be stored in the main repository at [git.kingspm.uk](https://git.kingspm.uk). All code related to serivces provided by King's College Hospital should be created under the `KingsPM` organisation. For personal research or other projects which do not require access by others, please use your own namespace.
+All code developed in the LSGLH bioinformatics groups shall be stored in the main repository at [git.kingspm.uk](https://git.kingspm.uk) if it within the scope of collaborative develpment within the LSGLH. Code and applications that are site specific and non-transferrable can be stored in the respective local code repositories. All code related to services provided by a specific LSGLH laboratory/site should be created under their respective organisation or the ``LSGLH`` organisation. For personal research or other projects which do not require access by others, please use your own namespace.
 
 #### Ownership
 Each code repository should have a designated owner and/or development lead. The owner shall have administration rights and able to add/remove contibutors to the repository. The owner also approves branch merges (after code review). If a repository does not follow the KingsPM guidance, the owner takes responsibility for any deviation thereof and ensures proper documentation.
