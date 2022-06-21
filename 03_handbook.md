@@ -1,4 +1,12 @@
-# Software Version Control
+# Developers Handbook
+
+This is a work in progress.
+
+## Style
+
+1. Refer to the Google Style Guides included in this repository.
+2. Use a linter (eg pylint for python) and follow the respective language's best practices for coding style.
+3. Tabs or spaces for indentation. Configure your editor appropriately and to not change indetation characters in projects that are not your own.# Software Version Control
 
 All code developed at the LSGLH, shall be put under version control according to these guidelines, ___in addition___ to trust-wide policies and versioning practices. Compliance with these guidelines does __not__ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
 

@@ -12,3 +12,14 @@ All bioinformaticians should follow these guidelines. Any change should be appro
 | ---------- | ----------------- | ----------------------------- |
 | 2019-08-13 | David Brawand     | Initial revision              |
 | 2020-01-03 | David Brawand     | Enlargement of scope to LSGLH |
+
+
+# Table of Contents
+1. [Introduction](#Introduction)
+2. [Software Development Lifecycle Policy](#sdlc)
+3. [Developer's Handbook](#developershandbook)
+4. [Deployments](#deployments)
+5. [Naming Schemes](#naming)
+6. [Data Processing](#workflows)
+7. [Data Storage](#archiving)
+8. [Final remarks](#final)
