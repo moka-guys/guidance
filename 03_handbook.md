@@ -34,6 +34,22 @@ Preference should be given to languages and practices that reduce the risk of er
 
 Code style for the de facto standard laguage for bioinformatics, python3+, should reflect the recommendations from PEP8. 
 
+## Documentation
+All software must be appropriately documented, so that it allows use and reuse by 3rd parties with reasonable effort.
+
+Each software repository must at least contain a _README_ file written in markdown that describes:
+
+- Purpose
+- Usage
+- Inputs and outputs
+
+### Comments and docstrings
+Docstrings and comments are string literals that are ignored by interpreters/compilers of that language that support them. Both _should_ be used in the source code and code review should ensure if those are necessary, useful or redundant.
+
+Docstrings (python) decribe the purpose of modules, functions, classes and methods.
+
+Comments should claridy the rationale behind the implementation and/or provide information if code deviates from best practice. Comments should be sparse. It is not necessary to explain third party functions or modules if they have their own complete documentation (avoid redundancy).
+
 ## Software Version Control
 All code developed at the SEGLH, _must_ be put under version control according to these guidelines, _in addition_ to trust-wide policies and versioning practices. Compliance with these guidelines does _not_ provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
 
