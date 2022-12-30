@@ -1,3 +1,11 @@
+---
+title: R Style Guide
+author: Google
+parent: Google Style Guides
+nav_order: 2
+permalink: /styleguides/r_styleguide
+custom_footer: true
+---
 # Google's R Style Guide
 
 R is a high-level programming language used primarily for statistical computing

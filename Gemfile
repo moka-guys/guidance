@@ -1,7 +1,20 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+# A Make-like program implemented in Ruby
+gem 'rake'
 
-gem "just-the-docs", "0.4.0.rc3" # currently the latest pre-release
-# gem "just-the-docs"            # the latest release - currently 0.3.3
+group :jekyll_plugins do
+  # Jekyll plugin for building Jekyll sites with any GitHub-hosted theme.
+  gem "jekyll-remote-theme"
+  # Jekyll build environment that most closely matches the GitHub Pages build environment
+  gem "github-pages"
+  # Jekyll theme for documentation with built-in search
+  gem 'just-the-docs'
+  # A liquid tag for Jekyll to indicate the last time a file was modified
+  gem "jekyll-last-modified-at"
+
+#   gem 'jekyll-latex-pdf'
+end
+
+
+

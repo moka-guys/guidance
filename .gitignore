@@ -1,1 +1,8 @@
 guidance_book.*
+.bundle/
+.idea/
+.jekyll-metadata
+missfont.log
+vendor/
+_site/
+Gemfile.lock

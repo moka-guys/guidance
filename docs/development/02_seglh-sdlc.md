@@ -1,3 +1,11 @@
+---
+title: SDLC
+author: David Brawand
+parent: Development practices
+nav_order: 1
+permalink: /development_practices/sdlc
+custom_footer: true
+---
 # Software Development Lifecycle Framework
 
 **Feasibility** - All software product development must begin with a feasibility and strategy alignment analysis. This study must include:
@@ -55,4 +63,3 @@ Special consideration must be taken regarding:
 2. *Continued Development Support* - The software must be maintable and supported by designated individuals that possess the knowledge and understanding to continuously develop and maintain the software.
 3. *Legacy status* - Care must be taken in avoiding excessive reliance on a single piece of software and aggregation of risks therein.
 
-\newpage

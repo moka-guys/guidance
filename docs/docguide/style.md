@@ -1,3 +1,11 @@
+---
+title: Markdown Style Guide
+author: Google
+parent: Documentation guides
+nav_order: 4
+permalink: /documentation_guides/markdown_styleguide
+custom_footer: true
+---
 # Markdown style guide
 
 Much of what makes Markdown great is the ability to write plain text, and get

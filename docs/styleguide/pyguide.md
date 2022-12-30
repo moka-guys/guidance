@@ -1,3 +1,11 @@
+---
+title: Python Style Guide
+author: Google
+parent: Google Style Guides
+nav_order: 1
+permalink: /styleguides/python_styleguide
+custom_footer: true
+---
 <!--
 AUTHORS:
 Prefer only GitHub-flavored Markdown in external text.

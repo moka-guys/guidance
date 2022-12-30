@@ -1,7 +1,15 @@
+---
+title: Best Practices
+author: Google
+parent: Documentation guides
+nav_order: 1
+permalink: /documentation_guides/best_practices
+custom_footer: true
+---
 # Documentation Best Practices
 
-"Say what you mean, simply and directly." - [Brian Kernighan]
-(https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)
+"Say what you mean, simply and directly." - 
+[Brian Kernighan](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)
 
 Contents:
 

@@ -1,3 +1,11 @@
+---
+title: Philosophy
+author: Google
+parent: Documentation guides
+nav_order: 2
+permalink: /documentation_guides/philosophy
+custom_footer: true
+---
 # Philosophy
 
 埏埴以為器，當其無，有器之用.
