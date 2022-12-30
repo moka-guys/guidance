@@ -50,7 +50,7 @@ jobs:
           sudo apt-get install pandoc
           sudo apt install texlive-xetex
           make
-          mv guidance_book.* _site/guidance_book.*
+          mv guidance_book.* _site/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
