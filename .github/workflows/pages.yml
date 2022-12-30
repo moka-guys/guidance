@@ -48,6 +48,7 @@ jobs:
       - name: build handbooks # Create md and html handbooks
         run: |
           sudo apt-get install pandoc
+          sudo apt install texlive-xetex
           make
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
