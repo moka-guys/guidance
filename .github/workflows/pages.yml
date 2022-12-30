@@ -31,6 +31,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Add last commit dates to front matter
+        run: |
+          bash scripts/add_last_modified_date.sh
+      - name: setup git config
+        run: |
+          # setup the username and email
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git add docs/*
+          git commit -m "Add new dates to front matter"
+          git push origin feature/password_management
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -50,6 +64,7 @@ jobs:
           sudo apt-get install pandoc
           sudo apt install texlive-xetex
           make
+          mv guidance_book.* _site/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
