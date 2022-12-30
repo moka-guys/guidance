@@ -1,3 +1,11 @@
+---
+title: README Style Guide
+author: Google
+parent: Documentation guides
+nav_order: 3
+permalink: /documentation_guides/readme_styleguide
+custom_footer: true
+---
 # README.md files
 
 About README.md files.
@@ -67,3 +75,4 @@ checked into `apis/`.
 
 ...
 ```
+

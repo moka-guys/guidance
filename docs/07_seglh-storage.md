@@ -1,3 +1,10 @@
+---
+title: Storage and archiving
+author: David Brawand
+nav_order: 5
+permalink: /storage_archiving
+custom_footer: true
+---
 # Data storage and archiving
 This section applies to the storage of NGS or other diagnostic dervied data. For datastorage related to regular backups of production infrastructure, refer to local requirements and regulations.
 
@@ -9,3 +16,4 @@ All data that is not inherently backed up via cloud based redundancy is subject 
 
 ## Archiving
 Separate archiving policy (WIP).
+

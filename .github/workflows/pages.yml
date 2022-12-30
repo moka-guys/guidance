@@ -25,6 +25,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Create md and html handbooks
+  steps:
+    - name: build handbooks
+      run: make
+
   # Build job
   build:
     runs-on: ubuntu-latest

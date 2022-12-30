@@ -1,3 +1,11 @@
+---
+title: Developers Handbook
+author: David Brawand
+parent: Development practices
+nav_order: 2
+permalink: /development_practices/developers_handbook
+custom_footer: true
+---
 # Developers Handbook
 
 This section extends the SLDC and details working practicies that ensure *quality*, *safety*, *reproducibility*, and *resilience* of any software developed and/or deployed by bioinformaticians of the SE GLH and associated groups or organisations.
@@ -217,3 +225,4 @@ Any software or code whose lifecycle deviates from this guidance _must_ be flagg
 
 > WARNING: This repository does not follow standard developers guidance as of [VERSION].
 > [Describe deviation from policy]
+
