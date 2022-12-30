@@ -46,7 +46,9 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: build handbooks # Create md and html handbooks
-        run: make
+        run: |
+          sudo apt-get install pandoc
+          make
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
