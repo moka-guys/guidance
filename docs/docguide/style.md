@@ -5,7 +5,7 @@ parent: Documentation guides
 nav_order: 4
 permalink: /documentation_guides/markdown_styleguide
 custom_footer: true
-last_modified_date: 2022-12-30 15:44:54
+last_modified_date: 2023-01-03 19:12:47
 ---
 # Markdown style guide
 
@@ -22,26 +22,26 @@ We seek to balance three goals:
 
 Contents:
 
-1.  [Document layout](#document-layout)
-1.  [Character line limit](#character-line-limit)
-1.  [Trailing whitespace](#trailing-whitespace)
-1.  [Headings](#headings)
-    1.  [ATX-style headings](#atx-style-headings)
-    1.  [Add spacing to headings](#add-spacing-to-headings)
-1.  [Lists](#lists)
-    1.  [Use lazy numbering for long lists](#use-lazy-numbering-for-long-lists)
-    1.  [Nested list spacing](#nested-list-spacing)
-1.  [Code](#code)
-    1.  [Inline](#inline)
-    1.  [Codeblocks](#codeblocks)
-    1.  [Declare the language](#declare-the-language)
-    1.  [Escape newlines](#escape-newlines)
-    1.  [Nest codeblocks within lists](#nest-codeblocks-within-lists)
-1.  [Links](#links)
-    1.  [Use informative Markdown link titles](#use-informative-markdown-link-titles)
-1.  [Images](#images)
-1.  [Prefer lists to tables](#prefer-lists-to-tables)
-1.  [Strongly prefer Markdown to HTML](#strongly-prefer-markdown-to-html)
+1. [Document layout](#document-layout)
+1. [Character line limit](#character-line-limit)
+1. [Trailing whitespace](#trailing-whitespace)
+1. [Headings](#headings)
+    1. [ATX-style headings](#atx-style-headings)
+    1. [Add spacing to headings](#add-spacing-to-headings)
+1. [Lists](#lists)
+    1. [Use lazy numbering for long lists](#use-lazy-numbering-for-long-lists)
+    1. [Nested list spacing](#nested-list-spacing)
+1. [Code](#code)
+    1. [Inline](#inline)
+    1. [Codeblocks](#codeblocks)
+    1. [Declare the language](#declare-the-language)
+    1. [Escape newlines](#escape-newlines)
+    1. [Nest codeblocks within lists](#nest-codeblocks-within-lists)
+1. [Links](#links)
+    1. [Use informative Markdown link titles](#use-informative-markdown-link-titles)
+1. [Images](#images)
+1. [Prefer lists to tables](#prefer-lists-to-tables)
+1. [Strongly prefer Markdown to HTML](#strongly-prefer-markdown-to-html)
 
 ## Document layout
 
@@ -63,26 +63,26 @@ Content.
 * https://link-to-more-info
 ```
 
-1.  `# Document Title`: The first heading should be a level one heading, and
+1. `# Document Title`: The first heading should be a level one heading, and
     should ideally be the same or nearly the same as the filename. The first
     level one heading is used as the page `<title>`.
 
-1.  `author`: *Optional*. If you'd like to claim ownership of the document or
+1. `author`: *Optional*. If you'd like to claim ownership of the document or
     if you are very proud of it, add yourself under the title. However,
     revision history generally suffices.
 
-1.  `Short introduction.` 1-3 sentences providing a high-level overview of the
+1. `Short introduction.` 1-3 sentences providing a high-level overview of the
     topic. Imagine yourself as a complete newbie, who landed on your "Extending
     Foo" doc and needs to know the most basic assumptions you take for granted.
     "What is Foo? Why would I extend it?"
 
-1.  `[TOC]`: if you use hosting that supports table of contents, such as Gitiles,
+1. `[TOC]`: if you use hosting that supports table of contents, such as Gitiles,
     put `[TOC]` after the short introduction. See
     [`[TOC]` documentation](https://gerrit.googlesource.com/gitiles/+/master/Documentation/markdown.md#Table-of-contents).
 
-1.  `## Topic`: The rest of your headings should start from level 2.
+1. `## Topic`: The rest of your headings should start from level 2.
 
-1.  `## See also`: Put miscellaneous links at the bottom for the user who wants
+1. `## See also`: Put miscellaneous links at the bottom for the user who wants
     to know more or didn't find what she needed.
 
 ## Character line limit

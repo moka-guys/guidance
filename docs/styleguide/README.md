@@ -6,7 +6,7 @@ permalink: /styleguides
 has_children: true
 has_toc: false
 custom_footer: true
-last_modified_date: 2022-12-30 15:44:54
+last_modified_date: 2023-01-03 19:12:47
 ---
 Google Style Guides
 ===================
@@ -64,6 +64,7 @@ The following Google style guides live outside of this project:
 [ccl]: https://creativecommons.org/licenses/by/3.0/
 
 #### Table of Contents
+
 * [Python Style Guide](pyguide.md)
 * [R Style Guide](Rguide.md)
 * [JavaScript Style Guide](jsguide.html)

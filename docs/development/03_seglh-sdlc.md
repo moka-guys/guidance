@@ -5,7 +5,7 @@ parent: Development practices
 nav_order: 1
 permalink: /development_practices/sdlc
 custom_footer: true
-last_modified_date: 2022-12-30 15:44:54
+last_modified_date: 2023-01-03 19:12:47
 ---
 # Software Development Lifecycle Framework
 
@@ -41,7 +41,7 @@ last_modified_date: 2022-12-30 15:44:54
 2. Testing must ensure that explicit error checking is performed and documented for all input, including for size, data type, and acceptable ranges or formats (if applicable)
 3. Code quality adherence using a standard linter (pep8, prettier, eslint, or similar) that validates basic syntax and method quality.
 4. Code and package security validation using a 3rd party module (eg. NPM or Github vulnerability scanning).
-5. Code execution impact on current system validation 
+5. Code execution impact on current system validation
 6. High volume (stress test) product execution testing. Eg. concurrent use.
 7. Peer code review.
 8. Final Build Master code review and approval.
@@ -60,7 +60,7 @@ last_modified_date: 2022-12-30 15:44:54
 **Continued development, Deprecation and Replacement/Retriement** - Software must be regularly assessed if fit for purpose and if still suitable for use in a clinical setting. The review cycle _must_ be set out on initial development/deployment and documented.
 
 Special consideration must be taken regarding:
-1. *Safety and Security* - Libraries and interpreters must be supported and without known major security flaws.
-2. *Continued Development Support* - The software must be maintable and supported by designated individuals that possess the knowledge and understanding to continuously develop and maintain the software.
-3. *Legacy status* - Care must be taken in avoiding excessive reliance on a single piece of software and aggregation of risks therein.
 
+1. _Safety and Security_ - Libraries and interpreters must be supported and without known major security flaws.
+2. _Continued Development Support_ - The software must be maintable and supported by designated individuals that possess the knowledge and understanding to continuously develop and maintain the software.
+3. _Legacy status_ - Care must be taken in avoiding excessive reliance on a single piece of software and aggregation of risks therein.
