@@ -10,11 +10,11 @@ for f in $FILES; do
     gitlog_modified_date=$(git log -1 --pretty=format:"%cd" --date=format:'%Y-%m-%d %H:%M:%S' "$f")
     printf "\--- Modified date in git log: %s \n" "$gitlog_modified_date"
 
-    diff=$(($(date -d "$file_modified_date" +%s)-$(date -d "$gitlog_modified_date" +%s)))
+    diff=$(($(date -d "$gitlog_modified_date" +%s)-$(date -d "$file_modified_date" +%s)))
     date_diff=$(date -d "@$diff" -u +'%H:%M:%S')
-    onemin=$(date -d 00:01:00 +'%H:%M:%S')]
+    onemin=$(date -d 00:01:00 +'%H:%M:%S')
 
-    if [ "$date_diff" > "$onemin" ]; then
+    if [ $(date +%s -d "$date_diff") -gt $(date +%s -d "$onemin") ]; then
       datetime_now=$(date +'%Y-%m-%d %H:%M:%S')
       printf "\--- Modified since last pull request \n"
       sed -i "s/.*last_modified_date:.*/last_modified_date: $datetime_now/" "$f"
