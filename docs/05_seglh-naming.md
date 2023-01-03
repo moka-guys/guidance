@@ -4,7 +4,7 @@ author: David Brawand
 nav_order: 3
 permalink: /nomenclature
 custom_footer: true
-last_modified_date: 2023-01-03 14:52:36
+last_modified_date: 2023-01-03 17:51:24
 ---
 # Nomenclature
 
