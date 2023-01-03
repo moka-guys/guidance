@@ -5,7 +5,7 @@ parent: Development practices
 nav_order: 2
 permalink: /development_practices/developers_handbook
 custom_footer: true
-last_modified_date: 2023-01-03 14:52:36
+last_modified_date: 2023-01-03 17:51:24
 ---
 # Developers Handbook
 
