@@ -4,7 +4,8 @@
 name: Update last_modified_date for docs
 
 on:
-  push:
+  pull_request:
+    types: opened
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -16,8 +17,7 @@ permissions:
   id-token: write
 
 jobs:
-  # Build job
-  build:
+  update last_modified_date:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
