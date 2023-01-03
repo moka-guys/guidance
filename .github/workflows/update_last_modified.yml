@@ -4,8 +4,7 @@
 name: Update last_modified_date for docs
 
 on:
-  pull_request:
-    types: opened
+  push:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,4 +35,4 @@ jobs:
           # Stage the file, commit and push
           git add docs/*
           git commit -m "Add new dates to front matter"
-          git push origin feature/password_management
+          git push
