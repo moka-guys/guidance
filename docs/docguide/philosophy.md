@@ -5,7 +5,7 @@ parent: Documentation guides
 nav_order: 2
 permalink: /documentation_guides/philosophy
 custom_footer: true
-last_modified_date: 2022-12-30 15:44:54
+last_modified_date: 2023-01-03 12:34:46
 ---
 # Philosophy
 
