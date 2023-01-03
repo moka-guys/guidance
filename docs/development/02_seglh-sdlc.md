@@ -5,7 +5,7 @@ parent: Development practices
 nav_order: 1
 permalink: /development_practices/sdlc
 custom_footer: true
-last_modified_date: 2023-01-03 12:34:46
+last_modified_date: 2023-01-03 13:29:31
 ---
 # Software Development Lifecycle Framework
 

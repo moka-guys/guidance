@@ -4,7 +4,7 @@ author: David Brawand
 nav_order: 2
 permalink: /deployments
 custom_footer: true
-last_modified_date: 2023-01-03 12:34:46
+last_modified_date: 2023-01-03 13:29:31
 ---
 # System and software deployments
 These guidelines apply to deployments to assets that are managed by participating organisations of the LSGLH (servers 
