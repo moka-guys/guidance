@@ -4,7 +4,7 @@ author: Rachel Duffin
 nav_order: 6
 permalink: /secrets
 custom_footer: true
-last_modified_date: 2023-01-03 14:52:36
+last_modified_date: 2023-01-03 17:51:24
 ---
 # Guidelines for generation, use and management of secrets
 These guidelines apply to secrets such as passwords, ssh keys, certificates and static and/or ephemeral authentication 
