@@ -1,5 +1,5 @@
 ---
-title: Documentation guides
+title: Google Documentation Guides
 author: Google
 nav_order: 7
 permalink: /documentation_guides
