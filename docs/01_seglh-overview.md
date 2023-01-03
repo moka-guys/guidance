@@ -4,6 +4,7 @@ author: David Brawand
 nav_order: 1
 permalink: /
 custom_footer: true
+last_modified_date: 2022-12-30 15:44:54
 ---
 # SEGLH Operational and Development Guidance
 
@@ -14,7 +15,8 @@ This guidance aims to set common standards and values in development and deploym
 workflows accross the South East Genomics Laboratory Hub. It also sets out to unify software development lifecycles and 
 tooling to enhance interoperability and sets out a framework to allow collaborative development of software.
 
-These guidance documents cover coding style, versioning, and documentation of code written in the bioinformatics groups 
+These guidance documents cover coding style, versioning, and do
+cumentation of code written in the bioinformatics groups 
 of the London South Genomic Laboratory Hub (Guy's and St.Thomas', King's College Hospital, Royal Brompton and 
 Harefield). Further they issue recommendations and requirements that ensure the safety, reliability and error 
 prevention during the software lifecycle.
