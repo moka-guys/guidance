@@ -19,7 +19,8 @@ After running the below code the page is viewable at:
 
 This can be used for testing prior to opening a pull request to the master branch.
 
-```bundle update
+```
+bundle update
 bundle install
 bundle exec jekyll serve
 ```
@@ -34,5 +35,6 @@ Valid rendering tagets are:
 
 First the following apt packages must be installed:
 
-```sudo apt install texlive-xetex pandoc
+```shell
+sudo apt install texlive-xetex pandoc ruby-dev -y
 ```

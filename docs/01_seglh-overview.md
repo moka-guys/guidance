@@ -30,7 +30,8 @@ This repository also includes the Google documentation and style guides which ar
 | ---------- | ------- | ----------------- | ------------------------------------ | ------------- |
 | 2019-08-13 | NA      | David Brawand     | Initial revision                     | KCH internal  |
 | 2020-01-03 | NA      | David Brawand     | Enlargement of scope to LSGLH        | GSTT internal |
-| 2022-08-16 | v1      | David Brawand     | Major extension, CI guidelines, SDLC | Pending       |
+| 2022-08-16 | v1-draft| David Brawand     | Major extension, CI guidelines, SDLC | Pending       |
+| 2023-02-09 | v1      | Rachel Duffin     | Split secrets guidance into own document and add to password and access guidance, set up GitHub Pages deployment | GSTT internal |
 
 ## Adoption
 
