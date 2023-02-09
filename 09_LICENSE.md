@@ -1,7 +1,7 @@
 ---
 title: License
 author: Rachel Duffin
-nav_order: 7
+nav_order: 8
 permalink: /license
 custom_footer: true
 last_modified_date: 2023-02-09 13:55:12

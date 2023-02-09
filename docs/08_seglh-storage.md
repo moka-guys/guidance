@@ -1,7 +1,7 @@
 ---
 title: Storage and archiving
 author: David Brawand
-nav_order: 5
+nav_order: 7
 permalink: /storage_archiving
 custom_footer: true
 last_modified_date: 2023-01-03 19:12:47

@@ -17,5 +17,3 @@ lifecycle framework.
 
 * [Developers Handbook](seglh-handbook.md)
 * [Software Development Lifecycle Framework](seglh-sdlc.md)
-
-\newpage
