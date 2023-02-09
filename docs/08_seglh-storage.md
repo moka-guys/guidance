@@ -4,7 +4,7 @@ author: David Brawand
 nav_order: 7
 permalink: /storage_archiving
 custom_footer: true
-last_modified_date: 2023-02-09 15:37:49
+last_modified_date: 2023-02-09 15:50:51
 ---
 # Data storage and archiving
 
