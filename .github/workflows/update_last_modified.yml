@@ -4,10 +4,8 @@
 name: Update last_modified_date for docs
 
 on:
-  push:
-    branches: ["feature/password_management"]
-  # pull_request:
-  #   types: opened
+  pull_request:
+    types: opened
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

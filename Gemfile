@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # A Make-like program implemented in Ruby
 gem 'rake'
+gem "webrick", "~> 1.8"
 
 group :jekyll_plugins do
   # Jekyll plugin for building Jekyll sites with any GitHub-hosted theme.
@@ -12,9 +13,4 @@ group :jekyll_plugins do
   gem 'just-the-docs'
   # A liquid tag for Jekyll to indicate the last time a file was modified
   gem "jekyll-last-modified-at"
-
-#   gem 'jekyll-latex-pdf'
 end
-
-
-

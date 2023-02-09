@@ -4,7 +4,7 @@ author: David Brawand
 nav_order: 5
 permalink: /data_processing
 custom_footer: true
-last_modified_date: 2023-01-03 19:12:47
+last_modified_date: 2023-02-09 15:50:51
 ---
 # Data processing
 
