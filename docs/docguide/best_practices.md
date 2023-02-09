@@ -9,15 +9,15 @@ last_modified_date: 2023-01-03 18:01:12
 ---
 # Documentation Best Practices
 
-"Say what you mean, simply and directly." - 
+"Say what you mean, simply and directly." -
 [Brian Kernighan](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)
 
 Contents:
 
-1.  [Minimum viable documentation](#minimum-viable-documentation)
-1.  [Update docs with code](#update-docs-with-code)
-1.  [Delete dead documentation](#delete-dead-documentation)
-1.  [Documentation is the story of your code](#documentation-is-the-story-of-your-code)
+1. [Minimum viable documentation](#minimum-viable-documentation)
+1. [Update docs with code](#update-docs-with-code)
+1. [Delete dead documentation](#delete-dead-documentation)
+1. [Documentation is the story of your code](#documentation-is-the-story-of-your-code)
 
 ## Minimum viable documentation
 
@@ -55,13 +55,13 @@ being asked.
 Just like any big cleaning project, **it's easy to be overwhelmed**. If your
 docs are in bad shape:
 
-*   Take it slow, doc health is a gradual accumulation.
-*   First delete what you're certain is wrong, ignore what's unclear.
-*   Get your whole team involved. Devote time to quickly scan every doc and make
+* Take it slow, doc health is a gradual accumulation.
+* First delete what you're certain is wrong, ignore what's unclear.
+* Get your whole team involved. Devote time to quickly scan every doc and make
     a simple decision: Keep or delete?
-*   Default to delete or leave behind if migrating. Stragglers can always be
+* Default to delete or leave behind if migrating. Stragglers can always be
     recovered.
-*   Iterate.
+* Iterate.
 
 ## Prefer the good over the perfect
 
@@ -85,13 +85,13 @@ computers second.** Documentation is an important part of this skill.
 There's a spectrum of engineering documentation that ranges from terse comments
 to detailed prose:
 
-1.  **Inline comments**: The primary purpose of inline comments is to provide
+1. **Inline comments**: The primary purpose of inline comments is to provide
     information that the code itself cannot contain, such as why the code is
     there.
 
-2.  **Method and class comments**:
+2. **Method and class comments**:
 
-    *   **Method API documentation**: The header / Javadoc / docstring
+    * **Method API documentation**: The header / Javadoc / docstring
         comments that say what methods do and how to use them. This
         documentation is **the contract of how your code must behave**. The
         intended audience is future programmers who will use and modify your
@@ -106,7 +106,7 @@ to detailed prose:
         are for inline comments. Think in practical terms when writing method
         documentation: "This is a hammer. You use it to pound nails."
 
-    *   **Class / Module API documentation**: The header / Javadoc / docstring
+    * **Class / Module API documentation**: The header / Javadoc / docstring
         comments for a class or a whole file. This documentation gives a brief
         overview of what the class / file does and often gives a few short
         examples of how you might use the class / file.
@@ -115,7 +115,7 @@ to detailed prose:
         use the class (some advanced, some simple). Always list the simplest
         use case first.
 
-3.  **README.md**: A good README.md orients the new user to the directory and
+3. **README.md**: A good README.md orients the new user to the directory and
     points to more detailed explanation and user guides:
     * What is this directory intended to hold?
     * Which files should the developer look at first? Are some files an API?

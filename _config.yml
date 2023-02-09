@@ -57,7 +57,6 @@ defaults:
 aux_links:
   "SEGLH Guidance on GitHub": "https://github.com/moka-guys/guidance"
   "PDF Handbook Download": "guidance_book.pdf"
-  "HTML Handbook Download": "guidance_book.html"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true

@@ -22,5 +22,3 @@ for f in $FILES; do
       printf "\--- File has not been modified \n"
     fi
 done
-
-

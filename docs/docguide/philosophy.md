@@ -18,10 +18,10 @@ useful.*
 
 Contents:
 
-1.  [Radical simplicity](#radical-simplicity)
-1.  [Readable source text](#readable-source-text)
-1.  [Minimum viable documentation](#minimum-viable-documentation)
-1.  [Better is better than perfect](#better-is-better-than-perfect)
+1. [Radical simplicity](#radical-simplicity)
+1. [Readable source text](#readable-source-text)
+1. [Minimum viable documentation](#minimum-viable-documentation)
+1. [Better is better than perfect](#better-is-better-than-perfect)
 
 ## Radical simplicity
 

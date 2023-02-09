@@ -64,6 +64,7 @@ The following Google style guides live outside of this project:
 [ccl]: https://creativecommons.org/licenses/by/3.0/
 
 #### Table of Contents
+
 * [Python Style Guide](pyguide.md)
 * [R Style Guide](Rguide.md)
 * [JavaScript Style Guide](jsguide.html)

@@ -10,10 +10,11 @@ last_modified_date: 2023-01-03 18:01:12
 ---
 # Development Practices
 
-This section details development practices, and includes the developers handbook and the software development 
+This section details development practices, and includes the developers handbook and the software development
 lifecycle framework.
 
 #### Table of Contents
+
 * [Developers Handbook](seglh-handbook.md)
 * [Software Development Lifecycle Framework](seglh-sdlc.md)
 

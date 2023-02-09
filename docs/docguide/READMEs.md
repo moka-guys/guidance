@@ -11,11 +11,11 @@ last_modified_date: 2023-01-03 18:01:12
 
 About README.md files.
 
-1.  [Overview](#overview)
-1.  [Guidelines](#guidelines)
-1.  [Filename](#filename)
-1.  [Contents](#contents)
-1.  [Example](#example)
+1. [Overview](#overview)
+1. [Guidelines](#guidelines)
+1. [Filename](#filename)
+1. [Contents](#contents)
+1. [Example](#example)
 
 ## Overview
 
@@ -25,12 +25,12 @@ GitHub and Gitiles renders it when you browse the directory.
 For example, the file /README.md is rendered when you view the contents of the
 containing directory:
 
-https://github.com/google/styleguide/tree/gh-pages
+<https://github.com/google/styleguide/tree/gh-pages>
 
 Also `README.md` at `HEAD` ref is rendered by Gitiles when displaying repository
 index:
 
-https://gerrit.googlesource.com/gitiles/
+<https://gerrit.googlesource.com/gitiles/>
 
 ## Guidelines
 
@@ -54,11 +54,11 @@ Files named `README` are not displayed in the directory view in Gitiles.
 At minimum, every package-level `README.md` should include or point to the
 following information:
 
-1.  **What** is in this package/library and what's it used for.
-2.  **Who** to contact.
-3.  **Status**: whether this package/library is deprecated, or not for general
+1. **What** is in this package/library and what's it used for.
+2. **Who** to contact.
+3. **Status**: whether this package/library is deprecated, or not for general
     release, etc.
-4.  **More info**: where to go for more detailed documentation, such as:
+4. **More info**: where to go for more detailed documentation, such as:
      * An overview.md file for more detailed conceptual information.
      * Any API documentation for using this package/library.
 
@@ -76,4 +76,3 @@ checked into `apis/`.
 
 ...
 ```
-
