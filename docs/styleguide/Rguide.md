@@ -5,7 +5,7 @@ parent: Google Style Guides
 nav_order: 2
 permalink: /styleguides/r_styleguide
 custom_footer: true
-last_modified_date: 2023-01-03 17:51:25
+last_modified_date: 2023-01-03 19:12:47
 ---
 # Google's R Style Guide
 
