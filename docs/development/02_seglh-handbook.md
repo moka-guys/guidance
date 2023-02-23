@@ -162,7 +162,8 @@ Each commit entering production *must* be tagged using semantic versioning as ou
 
 ### Code review
 
-Systematic code review is encouraged. It should be most applicable to the merging of feature branches into the development branch.
+Systematic code review is encouraged. Code review should always happen when code is merged into one of the shared branches (according to Git Flow). These are generally main and develop (and release if used). It should be most applicable to the merging of feature branches into the development branch, and any branch into main. Anything that merges into a production branch (main) should be formally reviewed and documented whilst merges into develop can be informal. This could lead to some double code review, e.g. when merging hotfix to main and then hotfix to develop, however given that the source branch (where you branched off the hotfix) is different to develop an informal code review should also happen when merging into develop.
+
 Please use the ___pull request___ mechanism to perform code review. At least one person should review new code. Solely the project owner/lead should merge approved pull requests into the develop branch. Pull requests to the validated master branch are not permitted.
 
 When issuing pull requests, ensure proper documentation of the newly implemented feature or code, so that the reviewers can understand the purpose thereof.
