@@ -13,7 +13,7 @@ tokens.
 
 ## root accounts
 
-All compute assets running Linux, must have a root account protected by the KingPM master password as well as the
+All compute assets running Linux, must have a root account protected by a master password and
 master public key. This allows the recovery of data from these machine in exceptional circumstances. Further, machines
 can be managed remotely using an automated provisioning tool such as **ansible**.
 
