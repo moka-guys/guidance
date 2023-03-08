@@ -1,3 +1,12 @@
+---
+title: Python Style Guide
+author: Google
+parent: Google Style Guides
+nav_order: 1
+permalink: /styleguides/python_styleguide
+custom_footer: true
+last_modified_date: 2023-01-03 19:12:47
+---
 <!--
 AUTHORS:
 Prefer only GitHub-flavored Markdown in external text.

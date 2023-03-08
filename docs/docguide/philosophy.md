@@ -1,3 +1,12 @@
+---
+title: Philosophy
+author: Google
+parent: Documentation guides
+nav_order: 2
+permalink: /documentation_guides/philosophy
+custom_footer: true
+last_modified_date: 2023-02-09 15:37:49
+---
 # Philosophy
 
 埏埴以為器，當其無，有器之用.
@@ -9,10 +18,10 @@ useful.*
 
 Contents:
 
-1.  [Radical simplicity](#radical-simplicity)
-1.  [Readable source text](#readable-source-text)
-1.  [Minimum viable documentation](#minimum-viable-documentation)
-1.  [Better is better than perfect](#better-is-better-than-perfect)
+1. [Radical simplicity](#radical-simplicity)
+1. [Readable source text](#readable-source-text)
+1. [Minimum viable documentation](#minimum-viable-documentation)
+1. [Better is better than perfect](#better-is-better-than-perfect)
 
 ## Radical simplicity
 

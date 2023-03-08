@@ -1,3 +1,12 @@
+---
+title: R Style Guide
+author: Google
+parent: Google Style Guides
+nav_order: 2
+permalink: /styleguides/r_styleguide
+custom_footer: true
+last_modified_date: 2023-02-09 15:37:49
+---
 # Google's R Style Guide
 
 R is a high-level programming language used primarily for statistical computing
@@ -92,9 +101,9 @@ too much risk for name collisions.
 While there is a small performance penalty for using `::`, it makes it easier to
 understand dependencies in your code. There are some exceptions to this rule.
 
-*   Infix functions (`%name%`) always need to be imported.
-*   Certain `rlang` pronouns, notably `.data`, need to be imported.
-*   Functions from default R packages, including `datasets`, `utils`,
+* Infix functions (`%name%`) always need to be imported.
+* Certain `rlang` pronouns, notably `.data`, need to be imported.
+* Functions from default R packages, including `datasets`, `utils`,
    `grDevices`, `graphics`, `stats` and `methods`. If needed, you can `@import`
    the full package.
 

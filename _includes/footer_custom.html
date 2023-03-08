@@ -1,0 +1,15 @@
+{% if page.custom_footer %}
+    <div>
+        <p style="font-size:13px; text-align:right">
+        Author: {{ page.author }}
+        </p>
+        <p style="font-size:13px; text-align:right">
+            Page last modified: {{ page.last_modified_date }}
+        </p>
+        <p style="font-size:13px; text-align:left">
+            This work is licensed under a
+            <a href=\"https://creativecommons.org/licenses/by/3.0/deed.en_US\">
+                Creative Commons Attribution 3.0 Unported License.</a>
+        </p>
+    </div>
+{% endif %}

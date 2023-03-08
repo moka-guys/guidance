@@ -1,3 +1,13 @@
+---
+title: Google Style Guides
+author: Google
+nav_order: 8
+permalink: /styleguides
+has_children: true
+has_toc: false
+custom_footer: true
+last_modified_date: 2023-02-09 15:37:49
+---
 Google Style Guides
 ===================
 
@@ -52,3 +62,9 @@ The following Google style guides live outside of this project:
 [go]: https://golang.org/wiki/CodeReviewComments
 [dart]: https://www.dartlang.org/guides/language/effective-dart
 [ccl]: https://creativecommons.org/licenses/by/3.0/
+
+#### Table of Contents
+
+* [Python Style Guide](pyguide.md)
+* [R Style Guide](Rguide.md)
+* [JavaScript Style Guide](jsguide.html)
