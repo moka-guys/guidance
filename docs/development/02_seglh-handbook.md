@@ -68,6 +68,18 @@ Docstrings (python) decribe the purpose of modules, functions, classes and metho
 
 Comments should claridy the rationale behind the implementation and/or provide information if code deviates from best practice. Comments should be sparse. It is not necessary to explain third party functions or modules if they have their own complete documentation (avoid redundancy).
 
+## Agile softare development
+We strive to follow Agile practices for software development. Given the small team size and limited project-based collaboration, only essential parts of Agile/Scrum are effetively implemented. Notably:
+
+- Sprints of ficxed length (2 weeks)
+- Spring Review meeting
+- Sprint Planning meeting
+
+All agile workflow related tasks as well as project managment is achieved in Atlassian Jira (free tier) by approval of the GLH Bioinformatics Lead.
+Given the policy of open-source software, visibility on Jira project can be extended outside Synnovis as needed. Patient related, personal, confidential or business sensitive data _must not_ be entered into the Software development maangement software at any time.
+
+[SEGLH Jira](https://seglh.atlassian.net/jira/projects)
+
 ## Software Version Control
 
 All code developed at the SEGLH, *must* be put under version control according to these guidelines, *in addition* to trust-wide policies and versioning practices. Compliance with these guidelines does *not* provide exemption of any sort to standard operation procedures, code of conducts and best practices currently enforced or encouraged under national, trust, departmental or group specific policies.
