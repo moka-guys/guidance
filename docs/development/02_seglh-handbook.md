@@ -5,7 +5,7 @@ parent: Development practices
 nav_order: 2
 permalink: /development_practices/developers_handbook
 custom_footer: true
-last_modified_date: 2023-02-09 15:50:52
+last_modified_date: 2023-04-21 11:10:01
 ---
 # Developers Handbook
 
@@ -67,6 +67,18 @@ Docstrings and comments are string literals that are ignored by interpreters/com
 Docstrings (python) decribe the purpose of modules, functions, classes and methods.
 
 Comments should claridy the rationale behind the implementation and/or provide information if code deviates from best practice. Comments should be sparse. It is not necessary to explain third party functions or modules if they have their own complete documentation (avoid redundancy).
+
+## Agile softare development
+We strive to follow Agile practices for software development. Given the small team size and limited project-based collaboration, only essential parts of Agile/Scrum are effetively implemented. Notably:
+
+- Sprints of ficxed length (2 weeks)
+- Spring Review meeting
+- Sprint Planning meeting
+
+All agile workflow related tasks as well as project managment is achieved in Atlassian Jira (free tier) by approval of the GLH Bioinformatics Lead.
+Given the policy of open-source software, visibility on Jira project can be extended outside Synnovis as needed. Patient related, personal, confidential or business sensitive data _must not_ be entered into the Software development maangement software at any time.
+
+[SEGLH Jira](https://seglh.atlassian.net/jira/projects)
 
 ## Software Version Control
 
